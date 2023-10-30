@@ -1,3 +1,3 @@
-# BlueMimd mc's site
+# BlueMimd mc site
 
 note: ignore warning message / errors
