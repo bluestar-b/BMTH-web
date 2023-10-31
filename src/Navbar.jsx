@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="navbar bg-transparent absolute">
       <div className="navbar-start">
         <div className="dropdown">
-          <label tabIndex={0} className="btn btn-ghost lg:hidden">
+          <label tabIndex={0} className="btn btn-ghost lg:hidden text-gray-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -30,7 +30,7 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-4 z-[1] p-2 shadow border-2 border-gray-100 rounded-box w-52 bg-black bg-opacity-25 text-gray-200"
           >
             {buttonsData.map((button, index) => (
-              <li className="hover:border-l-2 hover:border-l-gray-300" key={index}>
+              <li className="hover:border-l-2 hover:border-l-gray-300 text-gray-200" key={index}>
                 <a href={button.address}>{button.text}</a>
               </li>
             ))}
@@ -38,10 +38,10 @@ const Navbar = () => {
         </div>
         <a className="btn btn-ghost normal-case text-xl right-0 fixed">Lorem</a>
       </div>
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-center hidden lg:flex text-gray-200">
         <ul className="menu menu-horizontal px-1">
           {buttonsData.map((button, index) => (
-            <li key={index}>
+            <li className="hover:border-b-2 border-b-gray-200" key={index}>
               <a href={button.address}>{button.text}</a>
             </li>
           ))}
