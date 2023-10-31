@@ -30,7 +30,7 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-4 z-[1] p-2 shadow border-2 border-gray-100 rounded-box w-52 bg-black bg-opacity-25 text-gray-200"
           >
             {buttonsData.map((button, index) => (
-              <li className="hover:border-l-2 hover:border-l-gray-300 text-gray-200" key={index}>
+              <li className="hover:border-l-2 hover:border-l-gray-300 text-gray-200 pl-2" key={index}>
                 <a href={button.address}>{button.text}</a>
               </li>
             ))}
