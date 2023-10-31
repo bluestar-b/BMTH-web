@@ -14,7 +14,7 @@ export default function App() {
     <div className="max-w-md">
       <h1 className="mb-5 text-5xl font-bold">BlueMyth</h1>
       <p className="mb-5">The best meinkampf server</p>
-      <button onClick={play} className="btn btn-primary bg-transparent duration-75 border-gray-100 text-gray-200 backdrop-blur-sm border-2 hover:bg-transparent">Start WW3</button>
+      <button onClick={play} className="btn btn-primary bg-transparent duration-75 hover:border-gray-400 border-gray-100 text-gray-200 backdrop-blur-sm border-2 hover:bg-transparent">Start WW3</button>
     </div>
 
 
