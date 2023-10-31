@@ -20,7 +20,7 @@ export default function App() {
             <p className="mb-5">The best meinkampf server</p>
             <button
               onClick={play}
-              className="btn btn-primary border-2 border-gray-100 bg-transparent text-gray-200 backdrop-blur-sm duration-75 hover:border-gray-400 hover:bg-transparent"
+              className="btn btn-primary border-2 border-gray-100 bg-transparent text-gray-200 font-bold backdrop-blur-sm duration-75 hover:border-gray-400 hover:bg-transparent"
             >
               Start WW3
             </button>
