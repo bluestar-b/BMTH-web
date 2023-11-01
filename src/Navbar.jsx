@@ -3,7 +3,6 @@ const Navbar = () => {
     { text: "Home", address: "/" },
     { text: "About", address: "/about" },
     { text: "Status", address: "/status" },
-    { text: "Blog", address: "/blog" },
   ];
   return (
     <div className="navbar bg-transparent">

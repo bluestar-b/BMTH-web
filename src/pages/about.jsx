@@ -29,6 +29,7 @@ const About = () => {
           </div>
         </details>
       ))}
+      </div>
     </>
   );
 };
