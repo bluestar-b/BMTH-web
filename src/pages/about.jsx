@@ -1,5 +1,4 @@
 const About = () => {
-  
   const titleClass =
     "font-md collapse-title rounded-lg border-2 text-xl text-gray-200 backdrop-blur-lg";
   const contentClass =
@@ -23,9 +22,7 @@ const About = () => {
     <>
       {aboutData.map((data, index) => (
         <details className="collapse bg-transparent lg:p-4" key={index}>
-          <summary className={titleClass}>
-            {data.topic_title}
-          </summary>
+          <summary className={titleClass}>{data.topic_title}</summary>
           <div className={contentClass}>
             <p>{data.content}</p>
           </div>
@@ -36,8 +33,3 @@ const About = () => {
 };
 
 export default About;
-
-
-
-
-
