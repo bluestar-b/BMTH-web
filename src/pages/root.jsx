@@ -10,7 +10,7 @@ export default function Home() {
         <div className="hero-overlay bg-opacity-25"></div>
         <div className="hero-content text-center text-gray-200">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">NaziCraft</h1>
+            <h1 className="mb-5 text-5xl font-bold">BlueMyTH</h1>
             <p className="mb-5">The best meinkampf server</p>
             <button
               onClick={play}
