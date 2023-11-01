@@ -34,7 +34,7 @@ const Navbar = () => {
           >
             {buttonsData.map((button, index) => (
               <li
-                className="pl-2 text-gray-200 hover:border-l-2 hover:border-l-gray-300"
+                className="pl-2 text-gray-100 hover:border-l-2 hover:border-l-gray-300"
                 key={index}
               >
                 <a href={button.address}>{button.text}</a>
@@ -42,7 +42,7 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <a className="text-xlS btn btn-ghost text-2xl font-bold normal-case text-gray-200">
+        <a className="text-xlS btn btn-ghost text-2xl font-bold normal-case text-gray-100">
           Lorem
         </a>
       </div>

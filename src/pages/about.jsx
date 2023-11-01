@@ -1,8 +1,8 @@
 const About = () => {
   const titleClass =
-    "font-md collapse-title rounded-lg border-2 text-xl text-gray-200 backdrop-blur-lg";
+    "font-md collapse-title rounded-lg border-2 text-xl text-gray-200 backdrop-blur-lg mt-2";
   const contentClass =
-    "collapse-content mt-1 rounded-md border-2 border-gray-300 backdrop-blur-lg text-gray-200";
+    "collapse-content mt-2 rounded-md border-2 border-gray-300 backdrop-blur-[30px] text-gray-200";
   const aboutData = [
     {
       topic_title: "About",
