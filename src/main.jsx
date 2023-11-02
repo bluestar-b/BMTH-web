@@ -8,10 +8,12 @@ import "./assets//index.css";
 import Navbar from "./components/Navbar.jsx"
 import Home from "./pages/root.jsx";
 import About from "./pages/about.jsx";
+import ErrorPage from './pages/error.jsx'
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+    errorElement: <ErrorPage />,
   },
   {
     path: "/about",

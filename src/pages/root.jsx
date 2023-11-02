@@ -1,6 +1,5 @@
 import useSound from "use-sound";
 import pop from "../assets/mc-pop.mp3";
-import useCopy from "../utils/useCopy";
 
 export default function Home() {
   const [play] = useSound(pop);
