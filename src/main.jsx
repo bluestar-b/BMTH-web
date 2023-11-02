@@ -2,9 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./pages/root.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import "./index.css";
+import "./assets//index.css";
 
-import Navbar from "./Navbar.jsx";
+
+import Navbar from "./components/Navbar.jsx"
 import Home from "./pages/root.jsx";
 import About from "./pages/about.jsx";
 const router = createBrowserRouter([

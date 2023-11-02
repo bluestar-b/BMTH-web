@@ -1,5 +1,6 @@
 import useSound from "use-sound";
 import pop from "../assets/mc-pop.mp3";
+import useCopy from "../utils/useCopy";
 
 export default function Home() {
   const [play] = useSound(pop);
@@ -11,6 +12,7 @@ export default function Home() {
         <div className="hero-content text-center text-gray-200">
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold">BlueMyTH</h1>
+             
             <p className="mb-5">The best meinkampf server</p>
             <button
               onClick={play}
@@ -18,6 +20,7 @@ export default function Home() {
             >
               Add Server
             </button>
+            
           </div>
         </div>
       </div>
